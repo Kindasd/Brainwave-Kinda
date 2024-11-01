@@ -4,7 +4,7 @@ const Button = ({className, href, onClick, children, px, white}) => {
 
 const classes =`button relative infline-flex items-center justify-center h-11 transition-colors text-color-1 ${px || 'px-7'} ${white ? 'text-n-8' : 'text-n-1'} ${className || ''}`;
 
-const spanClass = 'relative z-10 p-8 top-3  '
+const spanClass = 'relative z-10 p-8   '
 
 const renderButton = () => (
     <button className={classes} onClick={onClick}>
