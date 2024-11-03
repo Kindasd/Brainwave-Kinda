@@ -7,8 +7,8 @@ export const Gradient = () => {
         <img
           className="w-full"
           src={gradient}
-          width={942}
-          height={942}
+          width={906}
+          height={1417}
           alt="Gradient"
         />
       </div>
